@@ -37,7 +37,7 @@ jobs:
 
       - name: "Install Nix"
         if: ${{ matrix.use-nix }}
-        uses: "cachix/install-nix-action@v30"
+        uses: "cachix/install-nix-action@v31"
 
       - name: "Install Rust"
         if: ${{ !matrix.use-nix }}
